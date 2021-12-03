@@ -22,7 +22,7 @@ STATS_MSG = (
     "**DISK:** {}"
 )
 HELP_MSG = (
-    "Search by Album or Track or just send me a Deezer Track or Album link and I will download it for you bot by @finite_xd\n\n"
+    "Search by Album or Track or just send me a Deezer Track or Album link and I will download it for you 😋❤\n\n"
     "**List of all commands:**\n"
     "/start - Get the welcome message\n"
     "/help - Get this message\n"
