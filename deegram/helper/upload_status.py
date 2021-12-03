@@ -37,10 +37,10 @@ class UploadStatus:
                 if self._total:
                     msg = ""
                     if self._track_count:
-                        msg += f" 💿 Track {self._track_count} of {self._total_tracks}\n"
+                        msg += f"🌹 Track {self._track_count} of {self._total_tracks}\n"
                     msg += (
-                        f"🔼 Uploading... {(self._current / self._total):.1%}\n"
-                        f"⚡ Speed: {get_readable_file_size(self.speed())}/s"
+                        f"😍 Uploading... {(self._current / self._total):.1%}\n"
+                        f"😅 Speed: {get_readable_file_size(self.speed())}/s"
                     )
                     try:
                         await self._message.edit(msg)
