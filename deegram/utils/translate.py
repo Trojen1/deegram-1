@@ -1,7 +1,6 @@
-VERSION = "0.2.4"
-CREATOR = "@finite_xd"
-BOT_NAME = "FINITE MUSIC"
-YOUTUBE = "https://www.youtube.com/channel/UCigq8CVltGNAM-hs6cAC8mw"
+VERSION = "0.0.1"
+CREATOR = "@tr0j3n 🥰"
+BOT_NAME = "Ichika Nakano 😍"
 WELCOME_MSG = (
     f"🎶🎵 Welcome to {BOT_NAME} 🎵🎶\n\n"
     "Click /help for more information\n\n"
@@ -10,7 +9,6 @@ WELCOME_MSG = (
 INFO_MSG = (
     f"👤 Creator: {CREATOR}\n"
     f"ℹ Version: {VERSION}\n"
-    f"🍩 Youtube: {YOUTUBE}"
 )
 STATS_MSG = (
     "**Bot Uptime:** {}\n"
@@ -32,9 +30,9 @@ HELP_MSG = (
     "/info - Get some useful information about the Bot\n"
     "/stats - Get some statistics about the Bot\n"
 )
-DOWNLOAD_MSG = "Downloading…"
-UPLOAD_MSG = "Uploading…"
-END_MSG = "Finished."
+DOWNLOAD_MSG = "😎Downloading…"
+UPLOAD_MSG = "🤩Uploading…"
+END_MSG = "🤗Finished."
 ALBUM_MSG = (
     "💽 Album: {}\n"
     "👤 Artist: {}\n"
@@ -48,5 +46,5 @@ TRACK_MSG = (
     "📅 Date: {}"
 )
 CHOOSE = "Choose:"
-SEARCH_ALBUM = "Search Album 💽"
-SEARCH_TRACK = "Search Track 🎧"
+SEARCH_ALBUM = "Search Album 🤍 "
+SEARCH_TRACK = "Search Track ❤"
