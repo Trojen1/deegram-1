@@ -40,9 +40,9 @@ async def inline(event: InlineQuery.Event):
 
     elif event.text.startswith(".t "):
         track = event.text.replace(".t", "").strip()
-        elif len(track) < 1:
+        if len(track) < 1:
             return
-        logger.debug(f'🥰Searching for track: {event.text}')
+        logger.debug(f'🥰Searching for track: {track}')
         api_search_link = "https://api.deezer.com/search?q=" + event.text
 
         data = await fetch_json(api_search_link)
