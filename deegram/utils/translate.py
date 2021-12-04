@@ -18,7 +18,7 @@ STATS_MSG = (
     "**DISK:** {}"
 )
 HELP_MSG = (
-    "---->HELP Module<----\n\n"
+    "(>ω<)  𝙷𝙴𝙻𝙿 𝙼𝚘𝚍𝚞𝚕𝚎  (>ω<)\n\n"
     "**List of all commands:**\n"
     "/start - Get the welcome message\n"
     "/help - Get this message\n"
