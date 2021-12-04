@@ -44,18 +44,6 @@ async def stats(event: NewMessage.Event):
     raise StopPropagation
 
 
-@bot.on(events.NewMessage())
-async def search(event: NewMessage.Event):
-    if event.text.startswith('/'):
-        search_query = ''
-    else:
-        search_query = event.text
-    await event.respond(translate.CHOOSE, buttons=[
-        [Button.switch_inline(translate.SEARCH_TRACK, query=search_query, same_peer=True),
-         Button.switch_inline(translate.SEARCH_ALBUM, query=".a " + search_query, same_peer=True)],
-        [Button.inline('❌')]
-    ])
-
 
 with bot:
     bot.run_until_disconnected()
