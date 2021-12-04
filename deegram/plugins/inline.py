@@ -38,7 +38,7 @@ async def inline(event: InlineQuery.Event):
                 ),
             )
 
-    else event.text.startswith(".t "):
+    elif event.text.startswith(".t "):
         track = event.text.replace(".t", "").strip()
         if len(track) < 1:
             return
