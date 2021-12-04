@@ -44,4 +44,4 @@ TRACK_MSG = (
 )
 CHOOSE = "Choose:"
 SEARCH_ALBUM = "Search Album 🤍 "
-SEARCH_TRACK = "Go inline ❤"
+SEARCH_TRACK = "Search Track ❤"
