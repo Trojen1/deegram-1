@@ -18,13 +18,14 @@ STATS_MSG = (
     "**DISK:** {}"
 )
 HELP_MSG = (
-    "Search by Album or Track or just send me a Deezer Track or Album link and I will download it for you 😋❤\n\n"
+    "---->HELP Module<----\n\n"
     "**List of all commands:**\n"
     "/start - Get the welcome message\n"
     "/help - Get this message\n"
-    "/settings - Change your preferences\n"
+    "/song <song_name> - Get The song you want\n"
     "/info - Get some useful information about the Bot\n"
     "/stats - Get some statistics about the Bot\n"
+    "@itchikanakano copy This and Paste it in your message box to search deezer songs"
 )
 DOWNLOAD_MSG = "😎Downloading…"
 UPLOAD_MSG = "🤩Uploading…"
