@@ -1,11 +1,7 @@
 VERSION = "0.0.1"
 CREATOR = "@tr0j3n 🥰"
 BOT_NAME = "Ichika Nakano 😍"
-WELCOME_MSG = (
-    f"""
-     Click /help for more information\n\n
-     join @waifuNetwork for more bots"""
-)
+WELCOME_MSG = (f"")
 INFO_MSG = (
     f"👤 Creator: {CREATOR}\n"
     f"ℹ Version: {VERSION}\n"
