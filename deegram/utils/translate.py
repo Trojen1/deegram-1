@@ -25,7 +25,7 @@ HELP_MSG = (
     "/song <song_name> - Get The song you want\n"
     "/info - Get some useful information about the Bot\n"
     "/stats - Get some statistics about the Bot\n"
-    "@itchikanakano copy This and Paste it in your message box to search deezer songs"
+    "Use The Button To Search Songs In Deezer"
 )
 DOWNLOAD_MSG = "😎Downloading…"
 UPLOAD_MSG = "🤩Uploading…"
