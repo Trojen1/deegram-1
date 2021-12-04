@@ -9,12 +9,14 @@ from .utils import translate, fetch
 from .utils.bot_utils import get_readable_file_size, get_readable_time
 
 plugins.load()
-
+inline_search_buttons = [
+    [Button.switch_inline(translate.SEARCH_TRACK, same_peer=True)],
+]
 
 @bot.on(NewMessage(pattern='/help'))
 async def get_help(event: NewMessage.Event):
-    await event.reply(translate.HELP_MSG)
-
+    await event.reply(translate.HELP_MSG, buttons=inline_search_buttons)
+    raise StopPropagation
 
 @bot.on(NewMessage(pattern='/info'))
 async def info(event: NewMessage.Event):
